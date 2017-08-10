@@ -11,7 +11,7 @@ import Single from './components/Single';
 import PhotoGrid from './components/PhotoGrid';
 
 // import react router deps
-import { BrowserRouter, Router, Route, IndexRoute, browserHistory } from 'react-router';
+import { Router, Route, IndexRoute, browserHistory } from 'react-router';
 
 const Root = () => {
   return(
