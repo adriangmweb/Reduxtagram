@@ -14,7 +14,7 @@ function mapDispatchToProps(dispatch) {
   return bindActionCreators(actionCreators, dispatch);
 }
 
-// Conect it is perfect to pass props way down some levels
+// Conect it is perfect to pass state and props way down some levels
 const App = connect(mapStateToProps, mapDispatchToProps)(Main);
 
 export default App;
